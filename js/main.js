@@ -196,7 +196,8 @@
                             // 相邻两数相等 相加消失
                             if (currentContent == nextContent && (currentContent*nextContent != 0)) {
                                 currentPosition.text(2*currentContent);
-                                if (+(2*currentContent) == 64) {
+                                // 成功出口
+                                if (+(2*currentContent) == 2048) {
                                     alert("you win");
                                     return;
                                 }
