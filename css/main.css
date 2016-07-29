@@ -1,0 +1,47 @@
+.line-0,
+.line-1,
+.line-2,
+.line-3 {
+  margin: 0 0 5px 0;
+}
+.line-0 .row-0,
+.line-1 .row-0,
+.line-2 .row-0,
+.line-3 .row-0,
+.line-0 .row-1,
+.line-1 .row-1,
+.line-2 .row-1,
+.line-3 .row-1,
+.line-0 .row-2,
+.line-1 .row-2,
+.line-2 .row-2,
+.line-3 .row-2,
+.line-0 .row-3,
+.line-1 .row-3,
+.line-2 .row-3,
+.line-3 .row-3 {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: solid;
+  list-style-type: none;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  font-size: 25px;
+}
+.num-2 {
+  background-color: #009900;
+}
+.num-4 {
+  background-color: #009966;
+}
+.num-8 {
+  background-color: #009999;
+}
+.num-16 {
+  background-color: #0099CC;
+}
+.num-32 {
+  background-color: #0099FF;
+}
